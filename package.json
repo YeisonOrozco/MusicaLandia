@@ -1,0 +1,26 @@
+{
+  "name": "musicalandia",
+  "version": "1.0.0",
+  "description": "Proyecto de aprendisaje saas npm ",
+  "homepage": "https://github.com/YeisonOrozco/MusicaLandia#readme",
+  "bugs": {
+    "url": "https://github.com/YeisonOrozco/MusicaLandia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeisonOrozco/MusicaLandia.git"
+  },
+  "license": "ISC",
+  "author": "YeikoOrozco",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.105.0"
+  }
+}
